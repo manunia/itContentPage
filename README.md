@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##Задание:
+Задание:
  выбрать любой дизайн (цветовая схема - строгая, черный/серый/белый) и сверстать контентную страницу для портфолио IT-компании. Страница должна быть адаптивной.
 
 Структура страницы: верхнее меню, заголовок страницы, контент.
@@ -45,8 +45,11 @@ Web-проекты
 На роут с разделом "Проекты" повесить guard. Переход же в роут можно осуществить только по всплывающему диалогу и подтверждению пользователя. (никакая авторизация не подразумивается).
 
 По роуту "Проекты" должен быть доступен компонент с заголовком и следующим содержанием.
+
 Заголовок: Threefold dashboard
+
 Контент:
+
 “Lorem ipsum dolor sit amet, zril dicant mollis sed in, nibh laoreet repudiare at sed. Cu eum laudem nostrum voluptatum, exerci soleat platonem ne cum. Dicta iudico admodum ex ius. His te ferri facer pericula, pro an saepe tempor, usu liber sententiae ad. Te sed putent delectus definitionem, sit ceteros forensibus ea.
 Qui te purto utamur, ex his tale accumsan expetendis, illud imperdiet dissentias ex vix. Sit timeam latine apeirian et. Sed quodsi reprehendunt cu, eu est vocibus corrumpit vituperata, sea nobis dicunt te. Esse ludus eu mei, in tritani oblique vix, ut quo omnes nusquam. Ei pro similique omittantur. Consetetur dissentias no qui.
 Lorem ipsum dolor sit amet:
