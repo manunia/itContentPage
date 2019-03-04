@@ -13,12 +13,16 @@ export class ImageService {
     private URL: string = this.API_URL + this.API_KEY + '&q=';
     private perPage: string ="&per_page=200";
 
-    getImage(query) {
-        return this.http.get(this.URL + query + this.perPage);
+    getImages(query): Observable<Image[]> {
+        return this.http.get<Image[]>(this.URL + query + this.perPage);
     }
+
 
 
     constructor (private http: HttpClient) { }
 }
 
+interface Image {
+
+}
 

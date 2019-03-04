@@ -1,0 +1,17 @@
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">{{model}}</h1>
+</div>
+
+<p *ngIf="searching">Fetching data.... </p>
+
+<div class="row">
+  <div class="col-12">
+    <ul id="thumbnailslist">
+      <li *ngFor="let image of images | paginate: { itemsPerPage: 10, currentPage: p }">
+        <img src="{{image.webformatURL}}" class="th" width="200" height="160">
+      </li>
+    </ul>
+  </div>
+  <pagination-controls class="pagination" (pageChange)="p = $event"></pagination-controls>
+
+</div>
