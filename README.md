@@ -76,3 +76,4 @@ Regione hendrerit eos id, ne eum iuvaret hendrerit, posse electram dissentiunt v
 - Angular 7+
 - Rx.js
 - HTML
+- Bootstrap
